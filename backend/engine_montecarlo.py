@@ -328,22 +328,21 @@ def run_simulation(
 
     elapsed = time.perf_counter() - t0
 
+# 1. This writes to the file in VS Code
     submission = {
         "treatments": treatments,
         "estimated_total_risk": total_risk,
-        "winning_strategy": winning_strategy
     }
     with open(output_json, "w") as f:
         json.dump(submission, f, indent=2)
 
+    # 2. This sends the data to your React frontend
     result = {
         "treatments": treatments,
         "estimated_total_risk": total_risk,
         "total_sim_time": elapsed,
-        "winning_strategy": winning_strategy,
-        "n_patients": n,
+        "winning_strategy": winning_strategy, # Keep this one so your UI can still display it!
     }
-
     print(f"✅ N={n} | Risk={total_risk} | Strategy={winning_strategy} | Time={elapsed:.3f}s")
     return result
 

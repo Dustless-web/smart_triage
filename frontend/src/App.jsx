@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { 
   Upload, Activity, Users, Clock, AlertTriangle, 
   HeartPulse, ShieldAlert, LayoutDashboard, Calendar, 
-  FileText, Download, Cpu, Award
+  FileText, Download, Cpu, Award, Code
 } from 'lucide-react';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
 
@@ -38,11 +38,11 @@ function App() {
 
   const handleExportJSON = () => {
     if (!results) return;
-    const exportData = { treatments: results.treatments, estimated_total_risk: results.estimated_total_risk, winning_strategy: results.winning_strategy };
+    const exportData = { treatments: results.treatments, estimated_total_risk: results.estimated_total_risk };
     const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
-    link.href = url; link.download = 'smarttriage_submission.json';
+    link.href = url; link.download = 'submission.json';
     document.body.appendChild(link); link.click(); document.body.removeChild(link);
   };
 
@@ -270,6 +270,42 @@ function App() {
     </div>
   );
 
+  // --- PAGE 4: RAW JSON EXPORT VIEW ---
+  const renderJsonView = () => {
+    // Isolate only the required schema keys
+    const cleanSubmission = {
+      treatments: results.treatments,
+      estimated_total_risk: results.estimated_total_risk
+    };
+
+    return (
+      <div className="bg-slate-900/40 backdrop-blur-xl rounded-3xl border border-white/10 shadow-lg shadow-black/20 overflow-hidden animate-in fade-in duration-500 flex flex-col h-[calc(100vh-8rem)]">
+        <div className="p-8 border-b border-white/5 flex justify-between items-center shrink-0">
+          <div>
+            <h2 className="text-lg font-bold text-white tracking-tight">submission.json</h2>
+            <p className="text-xs text-slate-400 mt-1">Strict schema compliance view. Ready for verify.py.</p>
+          </div>
+          <button 
+            onClick={() => {
+              navigator.clipboard.writeText(JSON.stringify(cleanSubmission, null, 2));
+              alert("Strict JSON schema copied to clipboard!");
+            }}
+            className="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-4 py-2 rounded-xl text-xs font-bold hover:bg-emerald-500 hover:text-white transition-all shadow-sm"
+          >
+            Copy to Clipboard
+          </button>
+        </div>
+        
+        {/* Code Block Container */}
+        <div className="flex-1 overflow-y-auto p-6 custom-scrollbar bg-slate-950/50">
+          <pre className="text-emerald-400 font-mono text-sm whitespace-pre-wrap">
+            {JSON.stringify(cleanSubmission, null, 2)}
+          </pre>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="flex h-screen bg-slate-950 text-slate-50 font-sans overflow-hidden selection:bg-blue-500/30 relative">
       
@@ -298,6 +334,9 @@ function App() {
           </button>
           <button onClick={() => setActiveTab('patients')} disabled={!results} className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all text-xs font-semibold disabled:opacity-40 disabled:cursor-not-allowed ${activeTab === 'patients' ? 'bg-white/10 text-white shadow-lg border border-white/10' : 'text-slate-400 hover:text-white hover:bg-white/5'}`}>
             <FileText className="w-4 h-4" /> Patient Logs
+          </button>
+          <button onClick={() => setActiveTab('json')} disabled={!results} className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all text-xs font-semibold disabled:opacity-40 disabled:cursor-not-allowed ${activeTab === 'json' ? 'bg-white/10 text-white shadow-lg border border-white/10' : 'text-slate-400 hover:text-white hover:bg-white/5'}`}>
+            <Code className="w-4 h-4" /> Raw JSON
           </button>
         </nav>
 
@@ -359,6 +398,7 @@ function App() {
               {activeTab === 'dashboard' && renderDashboard()}
               {activeTab === 'timeline' && renderTimeline()}
               {activeTab === 'patients' && renderPatients()}
+              {activeTab === 'json' && renderJsonView()}
             </>
           )}
         </div>
