@@ -1,0 +1,1806 @@
+{
+  "treatments": [
+    {
+      "patient_id": "P1",
+      "doctor_id": "Doctor_G",
+      "start_time": 0,
+      "end_time": 6
+    },
+    {
+      "patient_id": "P2",
+      "doctor_id": "Doctor_C",
+      "start_time": 1,
+      "end_time": 5
+    },
+    {
+      "patient_id": "P3",
+      "doctor_id": "Doctor_T",
+      "start_time": 4,
+      "end_time": 14
+    },
+    {
+      "patient_id": "P4",
+      "doctor_id": "Doctor_G",
+      "start_time": 7,
+      "end_time": 13
+    },
+    {
+      "patient_id": "P6",
+      "doctor_id": "Doctor_G",
+      "start_time": 13,
+      "end_time": 23
+    },
+    {
+      "patient_id": "P8",
+      "doctor_id": "Doctor_T",
+      "start_time": 14,
+      "end_time": 23
+    },
+    {
+      "patient_id": "P11",
+      "doctor_id": "Doctor_G",
+      "start_time": 23,
+      "end_time": 33
+    },
+    {
+      "patient_id": "P5",
+      "doctor_id": "Doctor_T",
+      "start_time": 23,
+      "end_time": 28
+    },
+    {
+      "patient_id": "P13",
+      "doctor_id": "Doctor_C",
+      "start_time": 24,
+      "end_time": 34
+    },
+    {
+      "patient_id": "P9",
+      "doctor_id": "Doctor_T",
+      "start_time": 28,
+      "end_time": 38
+    },
+    {
+      "patient_id": "P12",
+      "doctor_id": "Doctor_G",
+      "start_time": 33,
+      "end_time": 37
+    },
+    {
+      "patient_id": "P16",
+      "doctor_id": "Doctor_C",
+      "start_time": 34,
+      "end_time": 44
+    },
+    {
+      "patient_id": "P19",
+      "doctor_id": "Doctor_G",
+      "start_time": 37,
+      "end_time": 43
+    },
+    {
+      "patient_id": "P22",
+      "doctor_id": "Doctor_G",
+      "start_time": 43,
+      "end_time": 51
+    },
+    {
+      "patient_id": "P18",
+      "doctor_id": "Doctor_C",
+      "start_time": 44,
+      "end_time": 49
+    },
+    {
+      "patient_id": "P24",
+      "doctor_id": "Doctor_T",
+      "start_time": 45,
+      "end_time": 54
+    },
+    {
+      "patient_id": "P14",
+      "doctor_id": "Doctor_C",
+      "start_time": 49,
+      "end_time": 54
+    },
+    {
+      "patient_id": "P23",
+      "doctor_id": "Doctor_G",
+      "start_time": 51,
+      "end_time": 57
+    },
+    {
+      "patient_id": "P15",
+      "doctor_id": "Doctor_C",
+      "start_time": 54,
+      "end_time": 59
+    },
+    {
+      "patient_id": "P27",
+      "doctor_id": "Doctor_T",
+      "start_time": 54,
+      "end_time": 61
+    },
+    {
+      "patient_id": "P7",
+      "doctor_id": "Doctor_G",
+      "start_time": 57,
+      "end_time": 66
+    },
+    {
+      "patient_id": "P21",
+      "doctor_id": "Doctor_C",
+      "start_time": 59,
+      "end_time": 66
+    },
+    {
+      "patient_id": "P32",
+      "doctor_id": "Doctor_T",
+      "start_time": 61,
+      "end_time": 64
+    },
+    {
+      "patient_id": "P25",
+      "doctor_id": "Doctor_T",
+      "start_time": 64,
+      "end_time": 73
+    },
+    {
+      "patient_id": "P28",
+      "doctor_id": "Doctor_G",
+      "start_time": 66,
+      "end_time": 72
+    },
+    {
+      "patient_id": "P34",
+      "doctor_id": "Doctor_C",
+      "start_time": 66,
+      "end_time": 76
+    },
+    {
+      "patient_id": "P38",
+      "doctor_id": "Doctor_G",
+      "start_time": 72,
+      "end_time": 74
+    },
+    {
+      "patient_id": "P30",
+      "doctor_id": "Doctor_T",
+      "start_time": 73,
+      "end_time": 77
+    },
+    {
+      "patient_id": "P37",
+      "doctor_id": "Doctor_G",
+      "start_time": 74,
+      "end_time": 76
+    },
+    {
+      "patient_id": "P17",
+      "doctor_id": "Doctor_G",
+      "start_time": 76,
+      "end_time": 82
+    },
+    {
+      "patient_id": "P35",
+      "doctor_id": "Doctor_C",
+      "start_time": 76,
+      "end_time": 85
+    },
+    {
+      "patient_id": "P40",
+      "doctor_id": "Doctor_T",
+      "start_time": 77,
+      "end_time": 81
+    },
+    {
+      "patient_id": "P31",
+      "doctor_id": "Doctor_T",
+      "start_time": 81,
+      "end_time": 88
+    },
+    {
+      "patient_id": "P41",
+      "doctor_id": "Doctor_G",
+      "start_time": 82,
+      "end_time": 89
+    },
+    {
+      "patient_id": "P44",
+      "doctor_id": "Doctor_C",
+      "start_time": 85,
+      "end_time": 91
+    },
+    {
+      "patient_id": "P43",
+      "doctor_id": "Doctor_G",
+      "start_time": 89,
+      "end_time": 96
+    },
+    {
+      "patient_id": "P29",
+      "doctor_id": "Doctor_C",
+      "start_time": 91,
+      "end_time": 95
+    },
+    {
+      "patient_id": "P47",
+      "doctor_id": "Doctor_T",
+      "start_time": 94,
+      "end_time": 102
+    },
+    {
+      "patient_id": "P39",
+      "doctor_id": "Doctor_C",
+      "start_time": 95,
+      "end_time": 102
+    },
+    {
+      "patient_id": "P20",
+      "doctor_id": "Doctor_G",
+      "start_time": 96,
+      "end_time": 103
+    },
+    {
+      "patient_id": "P50",
+      "doctor_id": "Doctor_T",
+      "start_time": 102,
+      "end_time": 107
+    },
+    {
+      "patient_id": "P51",
+      "doctor_id": "Doctor_C",
+      "start_time": 102,
+      "end_time": 108
+    },
+    {
+      "patient_id": "P48",
+      "doctor_id": "Doctor_G",
+      "start_time": 103,
+      "end_time": 110
+    },
+    {
+      "patient_id": "P53",
+      "doctor_id": "Doctor_T",
+      "start_time": 107,
+      "end_time": 111
+    },
+    {
+      "patient_id": "P46",
+      "doctor_id": "Doctor_C",
+      "start_time": 108,
+      "end_time": 116
+    },
+    {
+      "patient_id": "P55",
+      "doctor_id": "Doctor_G",
+      "start_time": 110,
+      "end_time": 114
+    },
+    {
+      "patient_id": "P54",
+      "doctor_id": "Doctor_G",
+      "start_time": 114,
+      "end_time": 121
+    },
+    {
+      "patient_id": "P57",
+      "doctor_id": "Doctor_T",
+      "start_time": 114,
+      "end_time": 123
+    },
+    {
+      "patient_id": "P45",
+      "doctor_id": "Doctor_C",
+      "start_time": 116,
+      "end_time": 123
+    },
+    {
+      "patient_id": "P52",
+      "doctor_id": "Doctor_G",
+      "start_time": 121,
+      "end_time": 128
+    },
+    {
+      "patient_id": "P60",
+      "doctor_id": "Doctor_T",
+      "start_time": 123,
+      "end_time": 128
+    },
+    {
+      "patient_id": "P61",
+      "doctor_id": "Doctor_C",
+      "start_time": 123,
+      "end_time": 125
+    },
+    {
+      "patient_id": "P36",
+      "doctor_id": "Doctor_C",
+      "start_time": 125,
+      "end_time": 134
+    },
+    {
+      "patient_id": "P10",
+      "doctor_id": "Doctor_G",
+      "start_time": 128,
+      "end_time": 134
+    },
+    {
+      "patient_id": "P63",
+      "doctor_id": "Doctor_T",
+      "start_time": 128,
+      "end_time": 131
+    },
+    {
+      "patient_id": "P64",
+      "doctor_id": "Doctor_T",
+      "start_time": 131,
+      "end_time": 136
+    },
+    {
+      "patient_id": "P65",
+      "doctor_id": "Doctor_G",
+      "start_time": 134,
+      "end_time": 142
+    },
+    {
+      "patient_id": "P66",
+      "doctor_id": "Doctor_C",
+      "start_time": 134,
+      "end_time": 136
+    },
+    {
+      "patient_id": "P26",
+      "doctor_id": "Doctor_C",
+      "start_time": 136,
+      "end_time": 140
+    },
+    {
+      "patient_id": "P58",
+      "doctor_id": "Doctor_T",
+      "start_time": 136,
+      "end_time": 144
+    },
+    {
+      "patient_id": "P68",
+      "doctor_id": "Doctor_C",
+      "start_time": 140,
+      "end_time": 143
+    },
+    {
+      "patient_id": "P67",
+      "doctor_id": "Doctor_G",
+      "start_time": 142,
+      "end_time": 145
+    },
+    {
+      "patient_id": "P59",
+      "doctor_id": "Doctor_C",
+      "start_time": 143,
+      "end_time": 148
+    },
+    {
+      "patient_id": "P69",
+      "doctor_id": "Doctor_T",
+      "start_time": 144,
+      "end_time": 147
+    },
+    {
+      "patient_id": "P33",
+      "doctor_id": "Doctor_G",
+      "start_time": 145,
+      "end_time": 154
+    },
+    {
+      "patient_id": "P71",
+      "doctor_id": "Doctor_T",
+      "start_time": 147,
+      "end_time": 153
+    },
+    {
+      "patient_id": "P49",
+      "doctor_id": "Doctor_C",
+      "start_time": 148,
+      "end_time": 152
+    },
+    {
+      "patient_id": "P70",
+      "doctor_id": "Doctor_T",
+      "start_time": 153,
+      "end_time": 162
+    },
+    {
+      "patient_id": "P76",
+      "doctor_id": "Doctor_C",
+      "start_time": 153,
+      "end_time": 159
+    },
+    {
+      "patient_id": "P74",
+      "doctor_id": "Doctor_G",
+      "start_time": 154,
+      "end_time": 161
+    },
+    {
+      "patient_id": "P78",
+      "doctor_id": "Doctor_C",
+      "start_time": 159,
+      "end_time": 161
+    },
+    {
+      "patient_id": "P82",
+      "doctor_id": "Doctor_G",
+      "start_time": 161,
+      "end_time": 164
+    },
+    {
+      "patient_id": "P73",
+      "doctor_id": "Doctor_T",
+      "start_time": 162,
+      "end_time": 172
+    },
+    {
+      "patient_id": "P83",
+      "doctor_id": "Doctor_C",
+      "start_time": 163,
+      "end_time": 173
+    },
+    {
+      "patient_id": "P75",
+      "doctor_id": "Doctor_G",
+      "start_time": 164,
+      "end_time": 169
+    },
+    {
+      "patient_id": "P85",
+      "doctor_id": "Doctor_G",
+      "start_time": 169,
+      "end_time": 173
+    },
+    {
+      "patient_id": "P87",
+      "doctor_id": "Doctor_T",
+      "start_time": 172,
+      "end_time": 174
+    },
+    {
+      "patient_id": "P81",
+      "doctor_id": "Doctor_G",
+      "start_time": 173,
+      "end_time": 180
+    },
+    {
+      "patient_id": "P86",
+      "doctor_id": "Doctor_T",
+      "start_time": 174,
+      "end_time": 181
+    },
+    {
+      "patient_id": "P72",
+      "doctor_id": "Doctor_G",
+      "start_time": 180,
+      "end_time": 184
+    },
+    {
+      "patient_id": "P91",
+      "doctor_id": "Doctor_T",
+      "start_time": 181,
+      "end_time": 190
+    },
+    {
+      "patient_id": "P92",
+      "doctor_id": "Doctor_G",
+      "start_time": 184,
+      "end_time": 194
+    },
+    {
+      "patient_id": "P93",
+      "doctor_id": "Doctor_C",
+      "start_time": 187,
+      "end_time": 189
+    },
+    {
+      "patient_id": "P94",
+      "doctor_id": "Doctor_C",
+      "start_time": 189,
+      "end_time": 198
+    },
+    {
+      "patient_id": "P80",
+      "doctor_id": "Doctor_T",
+      "start_time": 190,
+      "end_time": 192
+    },
+    {
+      "patient_id": "P79",
+      "doctor_id": "Doctor_T",
+      "start_time": 192,
+      "end_time": 194
+    },
+    {
+      "patient_id": "P62",
+      "doctor_id": "Doctor_G",
+      "start_time": 194,
+      "end_time": 197
+    },
+    {
+      "patient_id": "P96",
+      "doctor_id": "Doctor_T",
+      "start_time": 194,
+      "end_time": 200
+    },
+    {
+      "patient_id": "P77",
+      "doctor_id": "Doctor_G",
+      "start_time": 197,
+      "end_time": 206
+    },
+    {
+      "patient_id": "P95",
+      "doctor_id": "Doctor_C",
+      "start_time": 198,
+      "end_time": 201
+    },
+    {
+      "patient_id": "P98",
+      "doctor_id": "Doctor_T",
+      "start_time": 200,
+      "end_time": 207
+    },
+    {
+      "patient_id": "P100",
+      "doctor_id": "Doctor_C",
+      "start_time": 201,
+      "end_time": 203
+    },
+    {
+      "patient_id": "P101",
+      "doctor_id": "Doctor_G",
+      "start_time": 206,
+      "end_time": 209
+    },
+    {
+      "patient_id": "P105",
+      "doctor_id": "Doctor_T",
+      "start_time": 207,
+      "end_time": 211
+    },
+    {
+      "patient_id": "P106",
+      "doctor_id": "Doctor_C",
+      "start_time": 207,
+      "end_time": 214
+    },
+    {
+      "patient_id": "P103",
+      "doctor_id": "Doctor_G",
+      "start_time": 209,
+      "end_time": 214
+    },
+    {
+      "patient_id": "P99",
+      "doctor_id": "Doctor_T",
+      "start_time": 211,
+      "end_time": 220
+    },
+    {
+      "patient_id": "P104",
+      "doctor_id": "Doctor_G",
+      "start_time": 214,
+      "end_time": 224
+    },
+    {
+      "patient_id": "P107",
+      "doctor_id": "Doctor_C",
+      "start_time": 214,
+      "end_time": 217
+    },
+    {
+      "patient_id": "P109",
+      "doctor_id": "Doctor_C",
+      "start_time": 217,
+      "end_time": 219
+    },
+    {
+      "patient_id": "P111",
+      "doctor_id": "Doctor_C",
+      "start_time": 219,
+      "end_time": 221
+    },
+    {
+      "patient_id": "P110",
+      "doctor_id": "Doctor_T",
+      "start_time": 220,
+      "end_time": 223
+    },
+    {
+      "patient_id": "P112",
+      "doctor_id": "Doctor_T",
+      "start_time": 223,
+      "end_time": 227
+    },
+    {
+      "patient_id": "P102",
+      "doctor_id": "Doctor_G",
+      "start_time": 224,
+      "end_time": 231
+    },
+    {
+      "patient_id": "P114",
+      "doctor_id": "Doctor_T",
+      "start_time": 227,
+      "end_time": 236
+    },
+    {
+      "patient_id": "P115",
+      "doctor_id": "Doctor_C",
+      "start_time": 227,
+      "end_time": 232
+    },
+    {
+      "patient_id": "P116",
+      "doctor_id": "Doctor_G",
+      "start_time": 231,
+      "end_time": 239
+    },
+    {
+      "patient_id": "P90",
+      "doctor_id": "Doctor_T",
+      "start_time": 236,
+      "end_time": 240
+    },
+    {
+      "patient_id": "P119",
+      "doctor_id": "Doctor_C",
+      "start_time": 237,
+      "end_time": 243
+    },
+    {
+      "patient_id": "P117",
+      "doctor_id": "Doctor_G",
+      "start_time": 239,
+      "end_time": 241
+    },
+    {
+      "patient_id": "P121",
+      "doctor_id": "Doctor_T",
+      "start_time": 240,
+      "end_time": 247
+    },
+    {
+      "patient_id": "P113",
+      "doctor_id": "Doctor_G",
+      "start_time": 241,
+      "end_time": 246
+    },
+    {
+      "patient_id": "P122",
+      "doctor_id": "Doctor_C",
+      "start_time": 243,
+      "end_time": 246
+    },
+    {
+      "patient_id": "P42",
+      "doctor_id": "Doctor_G",
+      "start_time": 246,
+      "end_time": 255
+    },
+    {
+      "patient_id": "P124",
+      "doctor_id": "Doctor_T",
+      "start_time": 247,
+      "end_time": 252
+    },
+    {
+      "patient_id": "P125",
+      "doctor_id": "Doctor_C",
+      "start_time": 249,
+      "end_time": 258
+    },
+    {
+      "patient_id": "P126",
+      "doctor_id": "Doctor_T",
+      "start_time": 252,
+      "end_time": 262
+    },
+    {
+      "patient_id": "P128",
+      "doctor_id": "Doctor_G",
+      "start_time": 255,
+      "end_time": 258
+    },
+    {
+      "patient_id": "P118",
+      "doctor_id": "Doctor_G",
+      "start_time": 258,
+      "end_time": 266
+    },
+    {
+      "patient_id": "P130",
+      "doctor_id": "Doctor_C",
+      "start_time": 260,
+      "end_time": 263
+    },
+    {
+      "patient_id": "P129",
+      "doctor_id": "Doctor_T",
+      "start_time": 262,
+      "end_time": 267
+    },
+    {
+      "patient_id": "P131",
+      "doctor_id": "Doctor_C",
+      "start_time": 263,
+      "end_time": 267
+    },
+    {
+      "patient_id": "P88",
+      "doctor_id": "Doctor_G",
+      "start_time": 266,
+      "end_time": 269
+    },
+    {
+      "patient_id": "P127",
+      "doctor_id": "Doctor_T",
+      "start_time": 267,
+      "end_time": 273
+    },
+    {
+      "patient_id": "P134",
+      "doctor_id": "Doctor_C",
+      "start_time": 267,
+      "end_time": 277
+    },
+    {
+      "patient_id": "P135",
+      "doctor_id": "Doctor_G",
+      "start_time": 269,
+      "end_time": 276
+    },
+    {
+      "patient_id": "P137",
+      "doctor_id": "Doctor_T",
+      "start_time": 273,
+      "end_time": 277
+    },
+    {
+      "patient_id": "P97",
+      "doctor_id": "Doctor_G",
+      "start_time": 276,
+      "end_time": 280
+    },
+    {
+      "patient_id": "P132",
+      "doctor_id": "Doctor_C",
+      "start_time": 277,
+      "end_time": 285
+    },
+    {
+      "patient_id": "P141",
+      "doctor_id": "Doctor_T",
+      "start_time": 279,
+      "end_time": 287
+    },
+    {
+      "patient_id": "P140",
+      "doctor_id": "Doctor_G",
+      "start_time": 280,
+      "end_time": 282
+    },
+    {
+      "patient_id": "P139",
+      "doctor_id": "Doctor_G",
+      "start_time": 282,
+      "end_time": 287
+    },
+    {
+      "patient_id": "P144",
+      "doctor_id": "Doctor_C",
+      "start_time": 286,
+      "end_time": 291
+    },
+    {
+      "patient_id": "P133",
+      "doctor_id": "Doctor_G",
+      "start_time": 287,
+      "end_time": 294
+    },
+    {
+      "patient_id": "P145",
+      "doctor_id": "Doctor_T",
+      "start_time": 287,
+      "end_time": 292
+    },
+    {
+      "patient_id": "P142",
+      "doctor_id": "Doctor_T",
+      "start_time": 292,
+      "end_time": 294
+    },
+    {
+      "patient_id": "P146",
+      "doctor_id": "Doctor_T",
+      "start_time": 294,
+      "end_time": 303
+    },
+    {
+      "patient_id": "P147",
+      "doctor_id": "Doctor_G",
+      "start_time": 294,
+      "end_time": 299
+    },
+    {
+      "patient_id": "P150",
+      "doctor_id": "Doctor_C",
+      "start_time": 298,
+      "end_time": 304
+    },
+    {
+      "patient_id": "P148",
+      "doctor_id": "Doctor_G",
+      "start_time": 299,
+      "end_time": 303
+    },
+    {
+      "patient_id": "P138",
+      "doctor_id": "Doctor_G",
+      "start_time": 303,
+      "end_time": 312
+    },
+    {
+      "patient_id": "P152",
+      "doctor_id": "Doctor_T",
+      "start_time": 303,
+      "end_time": 308
+    },
+    {
+      "patient_id": "P153",
+      "doctor_id": "Doctor_C",
+      "start_time": 304,
+      "end_time": 309
+    },
+    {
+      "patient_id": "P149",
+      "doctor_id": "Doctor_T",
+      "start_time": 308,
+      "end_time": 310
+    },
+    {
+      "patient_id": "P154",
+      "doctor_id": "Doctor_C",
+      "start_time": 309,
+      "end_time": 314
+    },
+    {
+      "patient_id": "P155",
+      "doctor_id": "Doctor_T",
+      "start_time": 310,
+      "end_time": 317
+    },
+    {
+      "patient_id": "P120",
+      "doctor_id": "Doctor_G",
+      "start_time": 312,
+      "end_time": 318
+    },
+    {
+      "patient_id": "P156",
+      "doctor_id": "Doctor_C",
+      "start_time": 314,
+      "end_time": 324
+    },
+    {
+      "patient_id": "P157",
+      "doctor_id": "Doctor_T",
+      "start_time": 317,
+      "end_time": 325
+    },
+    {
+      "patient_id": "P108",
+      "doctor_id": "Doctor_G",
+      "start_time": 318,
+      "end_time": 328
+    },
+    {
+      "patient_id": "P159",
+      "doctor_id": "Doctor_C",
+      "start_time": 324,
+      "end_time": 331
+    },
+    {
+      "patient_id": "P160",
+      "doctor_id": "Doctor_T",
+      "start_time": 325,
+      "end_time": 329
+    },
+    {
+      "patient_id": "P84",
+      "doctor_id": "Doctor_G",
+      "start_time": 328,
+      "end_time": 333
+    },
+    {
+      "patient_id": "P163",
+      "doctor_id": "Doctor_C",
+      "start_time": 331,
+      "end_time": 340
+    },
+    {
+      "patient_id": "P89",
+      "doctor_id": "Doctor_G",
+      "start_time": 333,
+      "end_time": 342
+    },
+    {
+      "patient_id": "P169",
+      "doctor_id": "Doctor_T",
+      "start_time": 337,
+      "end_time": 341
+    },
+    {
+      "patient_id": "P164",
+      "doctor_id": "Doctor_C",
+      "start_time": 340,
+      "end_time": 343
+    },
+    {
+      "patient_id": "P171",
+      "doctor_id": "Doctor_T",
+      "start_time": 341,
+      "end_time": 345
+    },
+    {
+      "patient_id": "P166",
+      "doctor_id": "Doctor_G",
+      "start_time": 342,
+      "end_time": 351
+    },
+    {
+      "patient_id": "P162",
+      "doctor_id": "Doctor_C",
+      "start_time": 343,
+      "end_time": 349
+    },
+    {
+      "patient_id": "P170",
+      "doctor_id": "Doctor_T",
+      "start_time": 345,
+      "end_time": 347
+    },
+    {
+      "patient_id": "P174",
+      "doctor_id": "Doctor_T",
+      "start_time": 347,
+      "end_time": 349
+    },
+    {
+      "patient_id": "P151",
+      "doctor_id": "Doctor_C",
+      "start_time": 349,
+      "end_time": 354
+    },
+    {
+      "patient_id": "P175",
+      "doctor_id": "Doctor_T",
+      "start_time": 350,
+      "end_time": 360
+    },
+    {
+      "patient_id": "P167",
+      "doctor_id": "Doctor_G",
+      "start_time": 351,
+      "end_time": 359
+    },
+    {
+      "patient_id": "P165",
+      "doctor_id": "Doctor_C",
+      "start_time": 354,
+      "end_time": 364
+    },
+    {
+      "patient_id": "P179",
+      "doctor_id": "Doctor_G",
+      "start_time": 359,
+      "end_time": 361
+    },
+    {
+      "patient_id": "P177",
+      "doctor_id": "Doctor_T",
+      "start_time": 360,
+      "end_time": 367
+    },
+    {
+      "patient_id": "P173",
+      "doctor_id": "Doctor_G",
+      "start_time": 361,
+      "end_time": 371
+    },
+    {
+      "patient_id": "P181",
+      "doctor_id": "Doctor_C",
+      "start_time": 364,
+      "end_time": 366
+    },
+    {
+      "patient_id": "P178",
+      "doctor_id": "Doctor_C",
+      "start_time": 366,
+      "end_time": 368
+    },
+    {
+      "patient_id": "P183",
+      "doctor_id": "Doctor_T",
+      "start_time": 367,
+      "end_time": 374
+    },
+    {
+      "patient_id": "P158",
+      "doctor_id": "Doctor_C",
+      "start_time": 368,
+      "end_time": 377
+    },
+    {
+      "patient_id": "P182",
+      "doctor_id": "Doctor_G",
+      "start_time": 371,
+      "end_time": 375
+    },
+    {
+      "patient_id": "P186",
+      "doctor_id": "Doctor_T",
+      "start_time": 374,
+      "end_time": 376
+    },
+    {
+      "patient_id": "P172",
+      "doctor_id": "Doctor_G",
+      "start_time": 375,
+      "end_time": 380
+    },
+    {
+      "patient_id": "P185",
+      "doctor_id": "Doctor_T",
+      "start_time": 376,
+      "end_time": 381
+    },
+    {
+      "patient_id": "P187",
+      "doctor_id": "Doctor_C",
+      "start_time": 377,
+      "end_time": 383
+    },
+    {
+      "patient_id": "P143",
+      "doctor_id": "Doctor_G",
+      "start_time": 380,
+      "end_time": 385
+    },
+    {
+      "patient_id": "P190",
+      "doctor_id": "Doctor_T",
+      "start_time": 381,
+      "end_time": 384
+    },
+    {
+      "patient_id": "P192",
+      "doctor_id": "Doctor_C",
+      "start_time": 383,
+      "end_time": 390
+    },
+    {
+      "patient_id": "P191",
+      "doctor_id": "Doctor_T",
+      "start_time": 384,
+      "end_time": 390
+    },
+    {
+      "patient_id": "P123",
+      "doctor_id": "Doctor_G",
+      "start_time": 385,
+      "end_time": 387
+    },
+    {
+      "patient_id": "P176",
+      "doctor_id": "Doctor_G",
+      "start_time": 387,
+      "end_time": 391
+    },
+    {
+      "patient_id": "P189",
+      "doctor_id": "Doctor_T",
+      "start_time": 390,
+      "end_time": 399
+    },
+    {
+      "patient_id": "P195",
+      "doctor_id": "Doctor_C",
+      "start_time": 390,
+      "end_time": 393
+    },
+    {
+      "patient_id": "P188",
+      "doctor_id": "Doctor_G",
+      "start_time": 391,
+      "end_time": 398
+    },
+    {
+      "patient_id": "P197",
+      "doctor_id": "Doctor_C",
+      "start_time": 393,
+      "end_time": 401
+    },
+    {
+      "patient_id": "P184",
+      "doctor_id": "Doctor_G",
+      "start_time": 398,
+      "end_time": 408
+    },
+    {
+      "patient_id": "P196",
+      "doctor_id": "Doctor_T",
+      "start_time": 399,
+      "end_time": 407
+    },
+    {
+      "patient_id": "P200",
+      "doctor_id": "Doctor_C",
+      "start_time": 401,
+      "end_time": 406
+    },
+    {
+      "patient_id": "P203",
+      "doctor_id": "Doctor_C",
+      "start_time": 406,
+      "end_time": 416
+    },
+    {
+      "patient_id": "P202",
+      "doctor_id": "Doctor_T",
+      "start_time": 407,
+      "end_time": 412
+    },
+    {
+      "patient_id": "P199",
+      "doctor_id": "Doctor_G",
+      "start_time": 408,
+      "end_time": 412
+    },
+    {
+      "patient_id": "P201",
+      "doctor_id": "Doctor_G",
+      "start_time": 412,
+      "end_time": 416
+    },
+    {
+      "patient_id": "P204",
+      "doctor_id": "Doctor_T",
+      "start_time": 412,
+      "end_time": 419
+    },
+    {
+      "patient_id": "P205",
+      "doctor_id": "Doctor_C",
+      "start_time": 416,
+      "end_time": 420
+    },
+    {
+      "patient_id": "P208",
+      "doctor_id": "Doctor_G",
+      "start_time": 416,
+      "end_time": 420
+    },
+    {
+      "patient_id": "P210",
+      "doctor_id": "Doctor_T",
+      "start_time": 419,
+      "end_time": 429
+    },
+    {
+      "patient_id": "P206",
+      "doctor_id": "Doctor_G",
+      "start_time": 420,
+      "end_time": 428
+    },
+    {
+      "patient_id": "P209",
+      "doctor_id": "Doctor_C",
+      "start_time": 420,
+      "end_time": 425
+    },
+    {
+      "patient_id": "P161",
+      "doctor_id": "Doctor_C",
+      "start_time": 425,
+      "end_time": 432
+    },
+    {
+      "patient_id": "P214",
+      "doctor_id": "Doctor_G",
+      "start_time": 428,
+      "end_time": 432
+    },
+    {
+      "patient_id": "P211",
+      "doctor_id": "Doctor_T",
+      "start_time": 429,
+      "end_time": 433
+    },
+    {
+      "patient_id": "P198",
+      "doctor_id": "Doctor_G",
+      "start_time": 432,
+      "end_time": 440
+    },
+    {
+      "patient_id": "P215",
+      "doctor_id": "Doctor_C",
+      "start_time": 432,
+      "end_time": 440
+    },
+    {
+      "patient_id": "P213",
+      "doctor_id": "Doctor_T",
+      "start_time": 433,
+      "end_time": 436
+    },
+    {
+      "patient_id": "P218",
+      "doctor_id": "Doctor_T",
+      "start_time": 436,
+      "end_time": 441
+    },
+    {
+      "patient_id": "P136",
+      "doctor_id": "Doctor_G",
+      "start_time": 440,
+      "end_time": 444
+    },
+    {
+      "patient_id": "P219",
+      "doctor_id": "Doctor_C",
+      "start_time": 440,
+      "end_time": 450
+    },
+    {
+      "patient_id": "P212",
+      "doctor_id": "Doctor_T",
+      "start_time": 441,
+      "end_time": 446
+    },
+    {
+      "patient_id": "P207",
+      "doctor_id": "Doctor_G",
+      "start_time": 444,
+      "end_time": 447
+    },
+    {
+      "patient_id": "P222",
+      "doctor_id": "Doctor_T",
+      "start_time": 446,
+      "end_time": 455
+    },
+    {
+      "patient_id": "P223",
+      "doctor_id": "Doctor_G",
+      "start_time": 447,
+      "end_time": 452
+    },
+    {
+      "patient_id": "P168",
+      "doctor_id": "Doctor_C",
+      "start_time": 450,
+      "end_time": 460
+    },
+    {
+      "patient_id": "P221",
+      "doctor_id": "Doctor_G",
+      "start_time": 452,
+      "end_time": 462
+    },
+    {
+      "patient_id": "P225",
+      "doctor_id": "Doctor_T",
+      "start_time": 455,
+      "end_time": 462
+    },
+    {
+      "patient_id": "P227",
+      "doctor_id": "Doctor_C",
+      "start_time": 460,
+      "end_time": 463
+    },
+    {
+      "patient_id": "P228",
+      "doctor_id": "Doctor_G",
+      "start_time": 462,
+      "end_time": 467
+    },
+    {
+      "patient_id": "P229",
+      "doctor_id": "Doctor_T",
+      "start_time": 462,
+      "end_time": 471
+    },
+    {
+      "patient_id": "P230",
+      "doctor_id": "Doctor_C",
+      "start_time": 463,
+      "end_time": 472
+    },
+    {
+      "patient_id": "P231",
+      "doctor_id": "Doctor_G",
+      "start_time": 467,
+      "end_time": 469
+    },
+    {
+      "patient_id": "P226",
+      "doctor_id": "Doctor_G",
+      "start_time": 469,
+      "end_time": 479
+    },
+    {
+      "patient_id": "P234",
+      "doctor_id": "Doctor_T",
+      "start_time": 471,
+      "end_time": 481
+    },
+    {
+      "patient_id": "P235",
+      "doctor_id": "Doctor_C",
+      "start_time": 472,
+      "end_time": 475
+    },
+    {
+      "patient_id": "P233",
+      "doctor_id": "Doctor_C",
+      "start_time": 475,
+      "end_time": 480
+    },
+    {
+      "patient_id": "P238",
+      "doctor_id": "Doctor_G",
+      "start_time": 479,
+      "end_time": 482
+    },
+    {
+      "patient_id": "P239",
+      "doctor_id": "Doctor_C",
+      "start_time": 480,
+      "end_time": 487
+    },
+    {
+      "patient_id": "P216",
+      "doctor_id": "Doctor_T",
+      "start_time": 481,
+      "end_time": 488
+    },
+    {
+      "patient_id": "P56",
+      "doctor_id": "Doctor_G",
+      "start_time": 482,
+      "end_time": 491
+    },
+    {
+      "patient_id": "P240",
+      "doctor_id": "Doctor_C",
+      "start_time": 487,
+      "end_time": 497
+    },
+    {
+      "patient_id": "P241",
+      "doctor_id": "Doctor_T",
+      "start_time": 488,
+      "end_time": 491
+    },
+    {
+      "patient_id": "P242",
+      "doctor_id": "Doctor_T",
+      "start_time": 491,
+      "end_time": 493
+    },
+    {
+      "patient_id": "P243",
+      "doctor_id": "Doctor_G",
+      "start_time": 491,
+      "end_time": 497
+    },
+    {
+      "patient_id": "P245",
+      "doctor_id": "Doctor_T",
+      "start_time": 493,
+      "end_time": 502
+    },
+    {
+      "patient_id": "P237",
+      "doctor_id": "Doctor_G",
+      "start_time": 497,
+      "end_time": 504
+    },
+    {
+      "patient_id": "P246",
+      "doctor_id": "Doctor_C",
+      "start_time": 497,
+      "end_time": 504
+    },
+    {
+      "patient_id": "P244",
+      "doctor_id": "Doctor_T",
+      "start_time": 502,
+      "end_time": 504
+    },
+    {
+      "patient_id": "P236",
+      "doctor_id": "Doctor_G",
+      "start_time": 504,
+      "end_time": 507
+    },
+    {
+      "patient_id": "P247",
+      "doctor_id": "Doctor_T",
+      "start_time": 504,
+      "end_time": 514
+    },
+    {
+      "patient_id": "P249",
+      "doctor_id": "Doctor_C",
+      "start_time": 504,
+      "end_time": 510
+    },
+    {
+      "patient_id": "P194",
+      "doctor_id": "Doctor_G",
+      "start_time": 507,
+      "end_time": 516
+    },
+    {
+      "patient_id": "P252",
+      "doctor_id": "Doctor_C",
+      "start_time": 510,
+      "end_time": 519
+    },
+    {
+      "patient_id": "P248",
+      "doctor_id": "Doctor_T",
+      "start_time": 514,
+      "end_time": 521
+    },
+    {
+      "patient_id": "P255",
+      "doctor_id": "Doctor_G",
+      "start_time": 516,
+      "end_time": 518
+    },
+    {
+      "patient_id": "P251",
+      "doctor_id": "Doctor_G",
+      "start_time": 518,
+      "end_time": 521
+    },
+    {
+      "patient_id": "P253",
+      "doctor_id": "Doctor_C",
+      "start_time": 519,
+      "end_time": 524
+    },
+    {
+      "patient_id": "P257",
+      "doctor_id": "Doctor_G",
+      "start_time": 521,
+      "end_time": 524
+    },
+    {
+      "patient_id": "P259",
+      "doctor_id": "Doctor_T",
+      "start_time": 522,
+      "end_time": 528
+    },
+    {
+      "patient_id": "P193",
+      "doctor_id": "Doctor_G",
+      "start_time": 524,
+      "end_time": 526
+    },
+    {
+      "patient_id": "P258",
+      "doctor_id": "Doctor_C",
+      "start_time": 524,
+      "end_time": 533
+    },
+    {
+      "patient_id": "P217",
+      "doctor_id": "Doctor_G",
+      "start_time": 526,
+      "end_time": 531
+    },
+    {
+      "patient_id": "P260",
+      "doctor_id": "Doctor_T",
+      "start_time": 528,
+      "end_time": 533
+    },
+    {
+      "patient_id": "P261",
+      "doctor_id": "Doctor_G",
+      "start_time": 531,
+      "end_time": 535
+    },
+    {
+      "patient_id": "P256",
+      "doctor_id": "Doctor_C",
+      "start_time": 533,
+      "end_time": 543
+    },
+    {
+      "patient_id": "P263",
+      "doctor_id": "Doctor_T",
+      "start_time": 533,
+      "end_time": 536
+    },
+    {
+      "patient_id": "P220",
+      "doctor_id": "Doctor_G",
+      "start_time": 535,
+      "end_time": 541
+    },
+    {
+      "patient_id": "P265",
+      "doctor_id": "Doctor_T",
+      "start_time": 538,
+      "end_time": 542
+    },
+    {
+      "patient_id": "P264",
+      "doctor_id": "Doctor_G",
+      "start_time": 541,
+      "end_time": 547
+    },
+    {
+      "patient_id": "P268",
+      "doctor_id": "Doctor_T",
+      "start_time": 542,
+      "end_time": 550
+    },
+    {
+      "patient_id": "P266",
+      "doctor_id": "Doctor_C",
+      "start_time": 543,
+      "end_time": 546
+    },
+    {
+      "patient_id": "P269",
+      "doctor_id": "Doctor_G",
+      "start_time": 547,
+      "end_time": 553
+    },
+    {
+      "patient_id": "P272",
+      "doctor_id": "Doctor_C",
+      "start_time": 548,
+      "end_time": 551
+    },
+    {
+      "patient_id": "P270",
+      "doctor_id": "Doctor_T",
+      "start_time": 550,
+      "end_time": 560
+    },
+    {
+      "patient_id": "P274",
+      "doctor_id": "Doctor_C",
+      "start_time": 552,
+      "end_time": 561
+    },
+    {
+      "patient_id": "P271",
+      "doctor_id": "Doctor_G",
+      "start_time": 553,
+      "end_time": 559
+    },
+    {
+      "patient_id": "P262",
+      "doctor_id": "Doctor_G",
+      "start_time": 559,
+      "end_time": 569
+    },
+    {
+      "patient_id": "P273",
+      "doctor_id": "Doctor_T",
+      "start_time": 560,
+      "end_time": 562
+    },
+    {
+      "patient_id": "P278",
+      "doctor_id": "Doctor_C",
+      "start_time": 561,
+      "end_time": 564
+    },
+    {
+      "patient_id": "P276",
+      "doctor_id": "Doctor_C",
+      "start_time": 564,
+      "end_time": 571
+    },
+    {
+      "patient_id": "P281",
+      "doctor_id": "Doctor_T",
+      "start_time": 564,
+      "end_time": 567
+    },
+    {
+      "patient_id": "P282",
+      "doctor_id": "Doctor_T",
+      "start_time": 567,
+      "end_time": 571
+    },
+    {
+      "patient_id": "P277",
+      "doctor_id": "Doctor_G",
+      "start_time": 569,
+      "end_time": 576
+    },
+    {
+      "patient_id": "P280",
+      "doctor_id": "Doctor_C",
+      "start_time": 571,
+      "end_time": 577
+    },
+    {
+      "patient_id": "P283",
+      "doctor_id": "Doctor_T",
+      "start_time": 571,
+      "end_time": 575
+    },
+    {
+      "patient_id": "P285",
+      "doctor_id": "Doctor_T",
+      "start_time": 575,
+      "end_time": 580
+    },
+    {
+      "patient_id": "P279",
+      "doctor_id": "Doctor_G",
+      "start_time": 576,
+      "end_time": 583
+    },
+    {
+      "patient_id": "P287",
+      "doctor_id": "Doctor_C",
+      "start_time": 577,
+      "end_time": 581
+    },
+    {
+      "patient_id": "P286",
+      "doctor_id": "Doctor_T",
+      "start_time": 580,
+      "end_time": 588
+    },
+    {
+      "patient_id": "P290",
+      "doctor_id": "Doctor_C",
+      "start_time": 581,
+      "end_time": 587
+    },
+    {
+      "patient_id": "P289",
+      "doctor_id": "Doctor_G",
+      "start_time": 583,
+      "end_time": 590
+    },
+    {
+      "patient_id": "P292",
+      "doctor_id": "Doctor_C",
+      "start_time": 587,
+      "end_time": 596
+    },
+    {
+      "patient_id": "P294",
+      "doctor_id": "Doctor_T",
+      "start_time": 588,
+      "end_time": 598
+    },
+    {
+      "patient_id": "P284",
+      "doctor_id": "Doctor_G",
+      "start_time": 590,
+      "end_time": 600
+    },
+    {
+      "patient_id": "P299",
+      "doctor_id": "Doctor_C",
+      "start_time": 596,
+      "end_time": 605
+    },
+    {
+      "patient_id": "P296",
+      "doctor_id": "Doctor_T",
+      "start_time": 598,
+      "end_time": 605
+    },
+    {
+      "patient_id": "P293",
+      "doctor_id": "Doctor_G",
+      "start_time": 600,
+      "end_time": 610
+    },
+    {
+      "patient_id": "P291",
+      "doctor_id": "Doctor_T",
+      "start_time": 605,
+      "end_time": 610
+    },
+    {
+      "patient_id": "P297",
+      "doctor_id": "Doctor_C",
+      "start_time": 605,
+      "end_time": 609
+    },
+    {
+      "patient_id": "P288",
+      "doctor_id": "Doctor_C",
+      "start_time": 609,
+      "end_time": 613
+    },
+    {
+      "patient_id": "P275",
+      "doctor_id": "Doctor_G",
+      "start_time": 610,
+      "end_time": 619
+    },
+    {
+      "patient_id": "P298",
+      "doctor_id": "Doctor_T",
+      "start_time": 610,
+      "end_time": 617
+    },
+    {
+      "patient_id": "P300",
+      "doctor_id": "Doctor_C",
+      "start_time": 613,
+      "end_time": 623
+    },
+    {
+      "patient_id": "P267",
+      "doctor_id": "Doctor_G",
+      "start_time": 619,
+      "end_time": 628
+    },
+    {
+      "patient_id": "P254",
+      "doctor_id": "Doctor_G",
+      "start_time": 628,
+      "end_time": 636
+    },
+    {
+      "patient_id": "P180",
+      "doctor_id": "Doctor_G",
+      "start_time": 636,
+      "end_time": 645
+    },
+    {
+      "patient_id": "P250",
+      "doctor_id": "Doctor_G",
+      "start_time": 645,
+      "end_time": 654
+    },
+    {
+      "patient_id": "P224",
+      "doctor_id": "Doctor_G",
+      "start_time": 654,
+      "end_time": 663
+    },
+    {
+      "patient_id": "P232",
+      "doctor_id": "Doctor_G",
+      "start_time": 663,
+      "end_time": 672
+    },
+    {
+      "patient_id": "P295",
+      "doctor_id": "Doctor_G",
+      "start_time": 672,
+      "end_time": 682
+    }
+  ],
+  "estimated_total_risk": 10195,
+  "winning_strategy": "Parallel_SA_Core_3 (\u03b1:2.18 \u03b2:1.23)"
+}
